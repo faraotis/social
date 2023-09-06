@@ -7,12 +7,12 @@
 
 body {
     height: fit-content;
-    width: 94vw;
+    width: 100vw;
     background-color: black;
 }
 
 img {
-    width: 94vw;
+    width: 100vw;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
     font-size: 1.5em;
     font-family: monospace;
     text-decoration: none;
-
+    margin-top: -3px;
     display: block;
     padding: 20px;
     text-align: center;
@@ -30,4 +30,8 @@ a {
 a:hover {
     color: gray;
     transition-duration: 0.3s;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

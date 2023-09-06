@@ -37,30 +37,28 @@ main {
     background: url('../imagens/frame-iphone.png') center no-repeat fixed;
 }
 
+#redes-sociais {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#logo img:hover {
+    transform: skewy(10deg);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 iframe {
     width: 280px;
     height: 590px;
     margin-top: 18px;
     margin-left: 16px;
     border-radius: 25px;
-    
-    /*width: 270px;
-    height: 473px;
-    margin-top: 79px;
-    margin-left: 21px;*/
-    
-}
-
-#redes-sociais {
-    position: absolute;
-
-    top: 10px;
-    right: 10px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
+    border: none;
 }
 
 #logo img {
