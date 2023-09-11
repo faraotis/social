@@ -49,11 +49,11 @@ main {
 }
 
 iframe {
-    width: 280px;
-    height: 590px;
-    margin-top: 18px;
-    margin-left: 16px;
-    border-radius: 25px;
+    width: 282px;
+    height: 597px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 33px;
     border: none;
 }
 
@@ -70,5 +70,5 @@ iframe {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 7px #00000074;
     transition: border 1s, transform 0.3s;
-    
+
 }
