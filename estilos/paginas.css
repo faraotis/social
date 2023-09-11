@@ -3,6 +3,7 @@
 * {
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
 }
 
 body {
@@ -25,11 +26,12 @@ a {
     display: block;
     padding: 20px;
     text-align: center;
+    min-height: 65px;
 }
 
 a:hover {
-    color: gray;
-    transition-duration: 0.3s;
+    font-size: 1.4em;
+    transition: font-size 0.3s;
 }
 
 ::-webkit-scrollbar {
